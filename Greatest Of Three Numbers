@@ -1,0 +1,16 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int o=sc.nextInt();
+        if(n>m && n>o){
+            System.out.println("n is Greater");
+        }else if(m>o){
+            System.out.println("m is Greater");
+        }else{
+            System.out.println("o is Greater");
+        }
+    }
+}
